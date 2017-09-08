@@ -37,6 +37,8 @@ public class Monstro : MonoBehaviour
 	public AudioClip atacarSom;
 	private AudioSource atacarAudioSource;
 
+	public Knoback knoback;
+
 	private bool seguindoJogador = false;
 	private float distanciaJogador;
 
@@ -163,12 +165,6 @@ public class Monstro : MonoBehaviour
 	{
 		ataqueLiberado = true;
 	}
-
-	/*
-	 * Retorna se o monstro morreu ou não
-	 */
-
-	public Knoback knoback;
 
 	public bool ReceberAtaque()
 	{
